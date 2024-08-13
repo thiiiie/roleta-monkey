@@ -879,11 +879,47 @@ a {
     padding-top: 4.375rem;
     padding-bottom: calc(var(--vh, 1vh) * 11)
   }
+  .main__logo-wrapper {
+    position: absolute;
+    z-index: var(--z-logo);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    aspect-ratio: 6.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: url(../images/logo-wrapper.png)
+  }
 }
 
 @media (orientation: landscape) and (min-width: 1024px) {
   .main {
     padding-top: 6.25rem
+  }
+  .main__logo-wrapper {
+    position: absolute;
+    z-index: var(--z-logo);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    aspect-ratio: 6.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: url(../images/logo-wrapper.png)
   }
 }
 
