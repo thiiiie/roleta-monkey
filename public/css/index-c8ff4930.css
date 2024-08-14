@@ -962,7 +962,7 @@ a {
   }
 }
 
-@media (orientation: portrait) {
+@media (orientation: portrait) and (max-width: 600px) {
   .main__logo-wrapper {
     height: 3rem
   }
