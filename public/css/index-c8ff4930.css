@@ -964,7 +964,11 @@ a {
 
 @media (orientation: portrait) and (max-width: 600px) {
   .main__logo-wrapper {
-    height: 3rem
+    height: 3rem;
+    display: center;
+    align-items: center;
+    padding: 0px;
+
   }
 }
 
@@ -981,7 +985,10 @@ a {
 }
 
 .main__logo-link {
-  height: 50%
+  height: 60%;
+  width: 80px;
+  display: center;
+  align-items: center;
 }
 
 .main__logo-link svg {
